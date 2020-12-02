@@ -1,0 +1,21 @@
+{
+  "name": "anticrash",
+  "version": "1.0.0",
+  "description": "Automatically deletes messages that would crash Discord",
+  "main": "src/index.js",
+  "repository": "git@github.com:pxlblue/anticrash.git",
+  "author": "relative <relative@pxl.blue>",
+  "license": "GPL-3.0-or-later",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node-dev src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "node-dev": "^6.2.0"
+  }
+}
